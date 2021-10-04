@@ -15,10 +15,9 @@ Copy the pynq module located in /usr/local/lib/python3.6/dist-packages/pynq to t
 
 run `python3 fpgaminer.py -h` for command line arguments
 ## Specs
-***Sha256d Implementation***<pre>          </pre>***Hashrate***
 
-fpga<pre>                    </pre>40 Mhashes/sec
+fpga:     40 Mhashes/sec
 
-hashlib<pre>                 </pre>17 khashes/sec
+hashlib:  17 khashes/sec
 
-python<pre>                  </pre>67 hashes/sec
+python:   67 hashes/sec
