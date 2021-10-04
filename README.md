@@ -4,7 +4,7 @@ Stratum mining client with support for CPU and FPGA mining.  FPGA implementation
 Standard Python modules
 
 Pynq-Z2 board - https://www.tul.com.tw/productspynq-z2.html
-## Tool versoins
+## Tool versions
 Xilinx Vivado 2019.1
 
 Python 3.6.5
@@ -15,6 +15,7 @@ Copy the pynq module located in /usr/local/lib/python3.6/dist-packages/pynq to t
 
 run `python3 fpgaminer.py -h` for command line arguments
 ## Specs
+<pre>
 ***Sha256d Implementation***          ***Hashrate***
 
 fpga                            40 Mhashes/sec
@@ -22,3 +23,4 @@ fpga                            40 Mhashes/sec
 hashlib                         17 khashes/sec
 
 python                          67 hashes/sec
+</pre>
