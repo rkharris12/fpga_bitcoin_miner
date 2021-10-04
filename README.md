@@ -21,3 +21,9 @@ FPGA Sha256d:     40 Mhashes/sec
 Hashlib Sha256d:  17 khashes/sec
 
 Python Sha256d:   67 hashes/sec
+## Credits
+I used these repositories as reference for this project.
+
+https://github.com/progranism/Open-Source-FPGA-Bitcoin-Miner
+
+https://github.com/ricmoo/nightminer
