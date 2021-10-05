@@ -147,7 +147,6 @@ if __name__ == "__main__":
 		# use library function to compute double sha256 hash for validation
 		sha256_lib_in = bytes.fromhex(block_header)
 		sha256_lib_out = hashlib.sha256(hashlib.sha256(sha256_lib_in).digest()).hexdigest()
-		#print("lib function network byte order: 0x%s" % sha256_lib_out)
 		print("hashlib result : 0x%s" % reverse_byte_order(sha256_lib_out))
 
 		# FPGA hash simulator
@@ -173,7 +172,6 @@ if __name__ == "__main__":
 			hash_2_word_rev = hash_2_word_rev + "0"
 		hash_2_result = reverse_byte_order(hash_2_word_rev) # convert back to big endian byte order before comparing to target
 		print("sha256d result : 0x%s" % hash_2_result)
-		#print("target:        : %s" % hex(target).rstrip("L"))
 		print("target:        : %s" % ("0x" + target_hex))
 
 		# compare hash result to target
