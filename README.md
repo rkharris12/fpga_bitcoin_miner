@@ -14,6 +14,8 @@ Copy the overlays folder to the same directory as fpgaminer.py to match line 115
 Copy the pynq module located in /usr/local/lib/python3.6/dist-packages/pynq to the same directory as fpgaminer.py
 
 run `python3 fpgaminer.py -h` for command line arguments
+
+To regenerate the Vivado projext, open Vivado, cd to the FPGA directory, and run `source sha256d.tcl` in the TCL command prompt
 ## Results
 
 FPGA Sha256d:     40 Mhashes/sec
