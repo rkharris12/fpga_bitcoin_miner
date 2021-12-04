@@ -3,7 +3,7 @@ Stratum Bitcoin mining client with support for CPU and FPGA mining.  FPGA implem
 ## Requirements
 Standard Python modules
 
-Pynq-Z2 board - https://www.tul.com.tw/productspynq-z2.html
+Pynq-Z2 board - http://www.pynq.io/board.html
 ## Tool versions
 Xilinx Vivado 2019.1
 
