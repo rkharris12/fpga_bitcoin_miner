@@ -1,5 +1,6 @@
 # fpga_bitcoin_miner
 Stratum Bitcoin mining client with support for CPU and FPGA mining.  FPGA implementation of Sha256d for the Pynq-Z2 board.
+https://www.youtube.com/watch?v=M_AocgfvTIs
 ## Requirements
 Standard Python modules
 
